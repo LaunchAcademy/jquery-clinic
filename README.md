@@ -94,7 +94,7 @@ $("#resources").parent();
 [Methods for Traversing](https://www.w3schools.com/jquery/jquery_ref_traversing.asp)
 ### Append something new to list from form field, reset field
 ```
-$("#thing-button").click(function() {
+$("#thing-button").click((event) => {
   var newThing = $("#thing-name").val();
   $("ul").append("<li>" + newThing + "</li>");
   $("#thing-name").val("");
@@ -102,3 +102,16 @@ $("#thing-button").click(function() {
 ```
 
 ### Adding an Event Listener vs. Triggering an Event
+```
+let callBackFunction = () => {
+   console.log("I was clicked")
+}
+
+$("#header-intro").click(callBackFunction)
+
+$("#header-intro").click()
+```
+
+
+
+
