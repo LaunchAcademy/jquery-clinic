@@ -1,4 +1,4 @@
-####Cautionary Tale
+#### Welcome to jQuery
 Everything you can do in jQuery is written with regular ([sometimes jokingly called "vanilla"](http://vanilla-js.com/))
 
 [jQuery API documentation](http://api.jquery.com/).
