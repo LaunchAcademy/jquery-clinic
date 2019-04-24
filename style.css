@@ -1,0 +1,53 @@
+/* Color, Height, Width, Box and Display */
+.block-div {
+  height: 100px;
+  width: 100px;
+
+  padding: 10px;
+  border: 20px solid red;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+
+  background-color: blue;
+  /* how else can I set a color? */
+
+  /* display: block; */
+  /* display: inline-block; */
+  /* display: none; */
+}
+
+/* FLOAT */
+.wrapper {
+  border: 5px solid green;
+}
+
+img {
+  float: right;
+}
+
+/* Fonts */
+
+p {
+  font-family: "Georgia";
+  /* font-family: "Helvetica" */
+  font-size: 10px;
+  font-weight: bold;
+}
+
+
+/* SPECIFICITY */
+div {
+  /* background-color: red; */
+}
+
+div.name {
+  background-color: green;
+  /* background-color: green !important; */
+}
+
+div#myId {
+  background-color: red
+}
