@@ -1,4 +1,6 @@
 #### Welcome to jQuery
+The lightweight JavaScript library that uses delightful, intuitive syntax to allow us to intereact with the DOM more easily
+
 Everything you can do in jQuery is written with regular ([sometimes jokingly called "vanilla"](http://vanilla-js.com/))
 
 [jQuery API documentation](http://api.jquery.com/).
